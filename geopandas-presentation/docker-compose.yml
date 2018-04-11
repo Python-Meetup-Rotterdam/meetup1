@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  python:
+    image: continuumio/miniconda3
+    container_name: python_rotterdam
+    ports:
+      - "8888:8888"
+    tty: true
+    volumes: 
+      - c:/Checkouts/PythonRotterdamApril10:/python
